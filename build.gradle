@@ -16,9 +16,12 @@ apply plugin: "kotlin"
 repositories {
     maven { url "https://dl.bintray.com/kotlin/ktor" }
     mavenCentral()
+    jcenter()
 }
 
 dependencies {
-    compile "io.ktor:ktor-server-netty:0.9.3"
+    compile "io.ktor:ktor-server-netty:0.9.4"
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+
+    compile "ch.qos.logback:logback-classic:1.2.1"
 }
