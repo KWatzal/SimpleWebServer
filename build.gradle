@@ -1,0 +1,24 @@
+buildscript {
+    ext.kotlin_version = '1.2.61'
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+apply plugin: "java"
+apply plugin: "kotlin"
+
+repositories {
+    maven { url "https://dl.bintray.com/kotlin/ktor" }
+    mavenCentral()
+}
+
+dependencies {
+    compile "io.ktor:ktor-server-netty:0.9.3"
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+}
