@@ -1,3 +1,5 @@
+package io.kay
+
 import com.fasterxml.jackson.databind.SerializationFeature
 import io.ktor.application.call
 import io.ktor.application.install
@@ -40,7 +42,7 @@ fun main() {
 }
 
 fun initPosts() = listOf(
-        Post("immutable-collections", "Immutable Collections In Java – Not Now, Not Ever", "nipa"),
-        Post("guide-to-java12", "Definitive Guide To Java 12", "nipa"),
-        Post("rest-vs-websockets", "REST vs WebSockets", "Kumar Chandrakant")
+  Post("immutable-collections", "Immutable Collections In Java – Not Now, Not Ever", "nipa"),
+  Post("guide-to-java12", "Definitive Guide To Java 12", "nipa"),
+  Post("rest-vs-websockets", "REST vs WebSockets", "Kumar Chandrakant")
 )

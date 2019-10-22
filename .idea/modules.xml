@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IdeaProjects-SimpleWebServer.iml" filepath="$PROJECT_DIR$/.idea/modules/IdeaProjects-SimpleWebServer.iml" group="SimpleWebServer" />
       <module fileurl="file://$PROJECT_DIR$/SimpleWebServer.iml" filepath="$PROJECT_DIR$/SimpleWebServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SimpleWebServer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/SimpleWebServer_main.iml" group="SimpleWebServer" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SimpleWebServer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/SimpleWebServer_test.iml" group="SimpleWebServer" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/otherProjects-SimpleWebServer.iml" filepath="$PROJECT_DIR$/.idea/modules/otherProjects-SimpleWebServer.iml" group="SimpleWebServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/otherProjects-SimpleWebServer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/otherProjects-SimpleWebServer_main.iml" group="SimpleWebServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/otherProjects-SimpleWebServer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/otherProjects-SimpleWebServer_test.iml" group="SimpleWebServer" />
     </modules>
   </component>
 </project>
